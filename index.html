@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles/global.css">
   <script defer src="source/footer-code.js"></script>
+  <script defer src="source/Weather-code.js"></script>
   <title>Responsive, Static Website</title>
 </head>
 <body>
@@ -19,6 +20,14 @@
       <li><a href="Top9Events.html">Top 9 Events</a></li>
       <li><a href="AdditionalEvents.html">Additional Events</a></li>
     </ul>
+  </section>
+
+  <section id="weather" class="container content-container">
+    <select id="dropdown" class="dropdown"></select>
+      <button id="submit-button" class="button">Submit</button>
+      <div class="container">
+        <ul id="weather-results" class="card-container"></ul>
+      </div>
   </section>
 
       <section id="content" class="container content-container">
