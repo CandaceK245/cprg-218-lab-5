@@ -4,7 +4,7 @@ renderDropdownOptions();
 
 /*calls API returns data*/
 async function fetchWeatherDetails(city){
-    const url = "http://api.weatherapi.com/v1/current.json?key=462772371c8448efbf815953240404&q=" + city + "&aqi=no";
+    const url = "https://api.weatherapi.com/v1/current.json?key=462772371c8448efbf815953240404&q=" + city + "&aqi=no";
     try{
         const response = await fetch(url);
         const json = await response.json();
