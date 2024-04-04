@@ -104,9 +104,11 @@ body {
   }
   
   .hero-container {
-    background-image: url(../Assets/Hero-Calgary-Skyline.JPG);
-    background-position: center;
-    background-size: contain;
+    background-image: url(../Assets/Peace_Bridge-Hero.JPG);
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
     color: #0f0f0f;
     height: 75vh;
     display: flex;
@@ -123,7 +125,18 @@ body {
     text-align: center;
     align-items: center;
   }
-  
+
+  .weather-container {
+    display: flex;
+    background-color: #058ef787; 
+    height: auto;
+    text-align: center;
+    align-items: center;
+  }
+  .dropdown {
+    padding: 10px;
+    margin-left: 75px;
+  }
 
   .footer-container {
     display: flex;
